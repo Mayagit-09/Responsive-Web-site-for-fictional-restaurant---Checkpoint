@@ -1,4 +1,4 @@
-                                                                              O&M Restaurant
+                                          O&M Restaurant
 
     - Présentation du projet
 O&M Restaurant est un site web responsive développé avec **HTML5, CSS3 et Bootstrap 5**.  
