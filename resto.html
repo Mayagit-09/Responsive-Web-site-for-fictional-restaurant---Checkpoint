@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O&M Restaurant</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styleresto.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+
+      <!-- LOGO -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/logoresto.png" alt="Logo O&M Restaurant" width="55" height="55"
+          class="rounded-circle me-2">
+        <span class="fw-bold text-white">O&M Restaurant</span>
+      </a>
+
+      <!-- MOBILE BUTTON -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENU -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero text-center text-white">
+    <div class="hero-content">
+      <h1 class="display-3 fw-bold">Bienvenue Chez O&M Restaurant</h1>
+      <p class="fs-4">Découvrez les saveurs les plus délicieuses</p>
+      <a href="#menu" class="btn btn-warning btn-lg mt-3">Voir le Menu</a>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="py-5">
+    <div class="container">
+
+      <h2 class="text-center mb-5">Notre Menu</h2>
+
+      <!-- ENTREES -->
+      <h3 class="text-warning text-center mb-4">Entrées</h3>
+
+      <div class="row g-4 mb-5">
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/salade.png" class="card-img-top" alt="Salade César">
+            <div class="card-body text-center">
+              <h5>Salade César</h5>
+              <p class="card-text">Salade fraîche avec parmesan, croûtons et sauce maison.</p>
+              <h6 class="text-warning">800 DA</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/soupe.png" class="card-img-top" alt="Soupe du chef">
+            <div class="card-body text-center">
+              <h5>Soupe</h5>
+              <p class="card-text">Soupe chaude préparée avec des ingrédients frais du jour.</p>
+              <h6 class="text-warning">1200 DA</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/bruschetta.png" class="card-img-top" alt="Bruschetta">
+            <div class="card-body text-center">
+              <h5>Bruschetta</h5>
+              <p class="card-text">Pain grillé avec tomates fraîches et huile d’olive.</p>
+              <h6 class="text-warning">700 DA</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PLATS -->
+      <h3 class="text-warning text-center mb-4">Plats Principaux</h3>
+
+      <div class="row g-4 mb-5">
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/pizza.png" class="card-img-top" alt="Pizza italienne">
+            <div class="card-body text-center">
+              <h5>Pizza Italienne</h5>
+              <p class="card-text">Pizza artisanale avec mozzarella et sauce tomate maison.</p>
+              <h6 class="text-warning">1100 DA</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/burger.png" class="card-img-top" alt="Burger gourmet">
+            <div class="card-body text-center">
+              <h5>Burger Gourmet</h5>
+              <p class="card-text">Burger grillé avec fromage fondu et sauce spéciale.</p>
+              <h6 class="text-warning">900 DA</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/pates.png" class="card-img-top" alt="Pâtes crémeuses">
+            <div class="card-body text-center">
+              <h5>Pâtes Crémeuses</h5>
+              <p class="card-text">Pâtes italiennes avec sauce crémeuse et parmesan.</p>
+              <h6 class="text-warning">1300 DA</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DESSERTS -->
+      <h3 class="text-warning text-center mb-4">Desserts</h3>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/cake.png" class="card-img-top" alt="Cake chocolat">
+            <div class="card-body text-center">
+              <h5>Cake au chocolat</h5>
+              <p class="card-text">Gâteau moelleux au chocolat fondant.</p>
+              <h6 class="text-warning">600 DA</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/glace.png" class="card-img-top" alt="Glace">
+            <div class="card-body text-center">
+              <h5>Glace</h5>
+              <p class="card-text">Glace artisanale aux différents parfums.</p>
+              <h6 class="text-warning">600 DA</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow h-100">
+            <img src="images/donut.png" class="card-img-top" alt="Donut sucré">
+            <div class="card-body text-center">
+              <h5>Donut Sucré</h5>
+              <p class="card-text">Donut moelleux avec glaçage sucré.</p>
+              <h6 class="text-warning">500 DA</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-6">
+          <img src="images/about.png" class="img-fluid rounded shadow" alt="Restaurant O&M">
+        </div>
+
+        <div class="col-md-6 text-center">
+          <h2>À propos de nous</h2>
+          <p>
+            O&M Restaurant réinvente la cuisine contemporaine dans un cadre élégant et chaleureux.
+            Notre chef imagine des plats raffinés, inspirés des saisons et sublimés par des produits d’exception.
+            Une expérience gustative unique, où modernité et authenticité se rencontrent.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5">
+    <div class="container">
+
+      <h2 class="text-center mb-4">Contact</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+
+          <form>
+            <input type="text" class="form-control mb-3" placeholder="Nom" required>
+            <input type="email" class="form-control mb-3" placeholder="Email" required>
+            <textarea class="form-control mb-3" rows="5" placeholder="Message" required></textarea>
+            <button class="btn btn-dark w-100">Envoyer</button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center text-white py-3">
+    <div class="container">
+      <p>© 2026 O&M Restaurant</p>
+
+      <i class="bi bi-facebook mx-2"></i>
+      <i class="bi bi-instagram mx-2"></i>
+      <i class="bi bi-twitter-x mx-2"></i>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
